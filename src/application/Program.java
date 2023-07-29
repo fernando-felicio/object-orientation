@@ -12,7 +12,10 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner (System.in);
 		
+		//Declarando a variável composta
 		Triangle x,y;
+		
+		//Instanciando as variáveis x e y
 		x = new Triangle();
 		y = new Triangle();
 		
@@ -26,7 +29,7 @@ public class Program {
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
 		
-		//Chamando a função de calculo de área
+		//Chamando o metodo de calculo de área
 		double areaX = x.area();	
 		double areaY = y.area();
 		
